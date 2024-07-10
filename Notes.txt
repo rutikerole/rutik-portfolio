@@ -1,0 +1,222 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////    DAY 1    /////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+Lets do some work
+
+1st we need to setup our next app
+then setup taiwind
+
+now we start with the hero section
+
+now for spotlight effect we need to download it from tailwind
+//npm i framer-motion clsx tailwind-merge
+
+
+app.ts
+TypeScript File: Contains plain TypeScript code.
+Usage: Used in general TypeScript projects without JSX.
+
+
+app.tsx
+TypeScript with JSX: Contains TypeScript code that includes JSX syntax.
+Usage: Used in React projects to define components and UI elements with TypeScript.
+
+after that create cn.ts file inside utils and paste the setup code ( from acernity . ui)
+and then create spotlight.tsx in ui folder and paste spotlight code
+
+then setup the tailwind.config.ts and global.css
+
+from acernityui get code of dot and grid and putin Hero.tsx file
+
+
+Now we need to dark mode so that we use NEXT-THEMES
+Step 1 : npm install next-themes
+Step 2 : create a theme provider and put copied code their
+Step 3 : Wrap your layout inside the <ThemeProvider> </ThemeProvider>
+
+do the styling using tailwind css
+
+now add the middle text animation effect using acernityui
+Step 1 : Go to the acernity ui and search text genrator
+Step 2 : create new file in UI Folder (components/ui/text-generate-effect.tsx)
+Step 3 : Put acernity code inside that file
+Step 4 : import text-generate-effect.tsx in Hero.tsx
+
+
+
+
+32 mins
+///////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////    DAY 2    /////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+we can able to modify acernity component also
+Now lets add The Button inside the hero section using ACERNITY UI 
+
+Then add the Floating Navbar using Acernity UI
+
+
+
+40 Mins
+///////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////    DAY 3    /////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+Today we add the grid and grid items from acernity ui
+edit them according to our requirement
+
+after that we add data in index.ts file ( all mandatory data which displayed on application)
+
+after that we add all necessary assets to our public folder
+
+
+
+After that we build our bento grid
+
+we fetch animation and globe from Acernity UI
+we add some neccessary file regarding globe.
+
+
+1.20
+///////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////    DAY 4    /////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+Project Section
+
+We need build a Project card which fall back 
+
+so first create the RecentProject.tsx file in component and import it in page.
+
+after that in recentProject file fetch the data from project(data folder)
+now for fall back card use acernity (3d pin)
+create two file in UI (PinContainer & 3d-pin)
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////    DAY 5    /////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+Building better user experience ( better scroll and etc )
+
+SENTRY....
+
+step 1. login in SENTRY
+
+step 2. start the onboardding
+
+step 3. select the particular lanauge or technology you want
+
+step 4. npx @sentry/wizard@latest -i nextjs
+
+step 5. copy token
+        SENTRY_AUTH_TOKEN=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
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////    DAY 6    /////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+Lets Build Testomanials 
+Create new component called Client.tsx 
+
+
+2.6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
